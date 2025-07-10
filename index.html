@@ -1,26 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cool Dark UI Template</title>
-    <link rel="stylesheet" href="styles/styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cool Dark UI Template</title>
+  <link rel="stylesheet" href="styles/style.css" />
 </head>
 <body>
-    <header>
-        <!-- TOP NAV BAR-->
-        <header class="topnavbar">
-            <a href="" class="logo"></a>
-            <a href="" class="btn btnsmall"> Sign Up</a>
-        </header>
-        <!-- BANNER TOP-->
-         <section class="topbanner">
-    <h1 class="topbannertitle">Cool Dark UI Template for <br> Webflow Agencies!</h1>
+
+  <!-- TOP NAV BAR SECTION -->
+  <header class="navbar">
+    <a href="#" class="logo">LOGO</a>
+    <a href="#" class="btn btn--small">Sign Up</a>
+  </header>
+
+  <!-- TOP NAV BANNER SECTION -->
+  <section class="hero">
+    <h1 class="hero-title">Cool Dark UI Template for <br> Webflow Agencies!</h1>
     <a href="#" class="btn">Stay Focused</a>
   </section>
-    </header>
-    <footer>
 
-    </footer>
+  <!-- SEE IT IN ACTION SECTION -->
+  <section class="action">
+    <div class="action__content">
+      <h2>See It in Action</h2>
+      <p>Explore the live preview and imagine your brand in this bold new look.</p>
+      <a href="#" class="btn">Launch Live Preview</a>
+    </div>
+
+    <div class="action__image">
+      <img src="images/wc-mini.png" alt="Live Preview Screenshot" />
+    </div>
+  </section>
+
+  <!-- STATS VALUE  -->
+  <section class="productive-users">
+    <h2>Joined Thousands of Productive Users</h2>
+    <div class="stats">
+      <div class="stat">
+        <span class="value">50K</span>
+        <span class="label">Active Users</span>
+      </div>
+      <div class="stat">
+        <span class="value">2M+</span>
+        <span class="label">Focus Sessions</span>
+      </div>
+      <div class="stat">
+        <span class="value">95%</span>
+        <span class="label">Satisfaction Rate</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT FORM SECTION -->
+  <section class="contact-section">
+    <div class="contact-container">
+      <div class="contact-left">
+        <h2>Let's Get in<br>Touch</h2>
+      </div>
+      <div class="contact-right">
+        <form>
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="example@email.com" required />
+
+          <label for="name">Name</label>
+          <input type="text" id="name" placeholder="full name" required />
+
+          <label for="message">Message</label>
+          <textarea id="message" rows="4" placeholder="write your message..." required></textarea>
+
+          <button type="submit">Get in Touch</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <h1 class="logo">LOGO</h1>
+    <p class="subtitle">
+      Ready to elevate your online presence? Contact us today to discuss your project and discover how we can bring your vision to life.
+    </p>
+
+    <nav class="footer-links">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">How it Works</a>
+      <a href="#">Services</a>
+    </nav>
+
+    <!-- BONUS FEEDBACK -->
+    <section class="feedback-section">
+      <div class="feedback-header">
+        <span class="star">⭐</span>
+        <h2>What Our Users Say</h2>
+        <p>Real feedback from our community of productive users.</p>
+      </div>
+
+      <div class="feedback-card">
+        <img src="https://via.placeholder.com/60" alt="Reviewer Photo" class="reviewer-img" />
+        <div class="reviewer-info">
+          <h4>Jane Doe</h4>
+          <span class="date">July 10, 2025</span>
+          <p class="review-text">
+            “This tool changed the way I work. I’ve never felt more focused and organized.”
+          </p>
+        </div>
+      </div>
+    </section>
+  </footer>
+
 </body>
 </html>
